@@ -3,5 +3,5 @@
 ### Infres 16 SR
 
 Liste des solutions : 
-- [Préparation du Labo ansible](Solutions/Labo/Soluc.md)
+- [Préparation du Labo ansible](Solutions/Labo/Soluce.md)
  
