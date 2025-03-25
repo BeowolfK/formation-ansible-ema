@@ -4,3 +4,5 @@
 Liste des solutions : 
 - [Préparation du Labo ansible](Solutions/Labo/Soluce.md)
 - [Installation](Solutions/Installation/Soluce.md) 
+- [Authentification](Solutions/Authentification/Soluce.md) 
+- [Configuration](Solutions/Configuration/Soluce.md)

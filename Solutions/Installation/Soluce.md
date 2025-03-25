@@ -3,31 +3,31 @@
 
 ## Exercice 1
 Démarrez la VM ubuntu depuis le répertoire atelier-01.
-```bash
+```console
 $ vagrant up ubuntu
 ```
 Connectez-vous à cette VM.
-```bash
+```console
 $ vagrant ssh ubuntu
 ```
 Rafraîchissez les informations sur les paquets.
-```bash
+```console
 $ sudo apt update
 ```
 Recherchez le paquet ansible avec les options qui vont bien.
-```bash
+```console
 $ sudo apt search ansible
 ```
 Installez le paquet officiel fourni par la distribution.
-```bash
+```console
 $ sudo apt install -y ansible
 ```
 Vérifiez si l’installation s’est bien déroulée.
-```bash
+```console
 $ dpkg -l | grep ansible
 ```
 Notez la version d’Ansible.
-```bash
+```console
 $ ansible --version
 ansible [core 2.14.18]
   config file = None
@@ -40,18 +40,18 @@ ansible [core 2.14.18]
   libyaml = True
 ```
 Déconnectez-vous et supprimez la VM.
-```bash
+```console
 $ vagrant destroy -f ubuntu
 ```
 
 ## Exercice 2
 
 Répétez l’exercice précédent en configurant un dépôt PPA (Personal Package Archive) pour Ansible :
-```bash
+```console
 $ sudo apt-add-repository ppa:ansible/ansible
 ```
 Notez la version fournie par ce dépôt tiers et comparez avec la version officielle de l’exercice précédent.
-```bash
+```console
 $ sudo apt install ansible -y
 $ ansible --version
 ansible [core 2.17.9]
@@ -68,7 +68,7 @@ Nous pouvons voir que la version d'Ansible est plus récente depuis le dépôt P
 
 ## Exercice 3
 Lancez une VM Rocky Linux et installez Ansible en utilisant PIP et Virtualenv.
-```bash
+```console
 $ vagrant up rocky
 $ vagrant ssh rocky 
 $ python3 -m venv ansible-env
