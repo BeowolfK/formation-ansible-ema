@@ -1,5 +1,5 @@
 # Installation
-[Enoncé Blog Migrolinux](https://blog.microlinux.fr/formation-ansible-03-installation/)
+[Enoncé Blog Microlinux](https://blog.microlinux.fr/formation-ansible-03-installation/)
 
 ## Exercice 1
 Démarrez la VM ubuntu depuis le répertoire atelier-01.

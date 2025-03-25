@@ -6,3 +6,5 @@ Liste des solutions :
 - [Installation](Solutions/Installation/Soluce.md) 
 - [Authentification](Solutions/Authentification/Soluce.md) 
 - [Configuration](Solutions/Configuration/Soluce.md)
+- [Idempotence](Solutions/Idempotence/Soluce.md)
+- [Playbooks](Solutions/Playbooks/Soluce.md)

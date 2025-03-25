@@ -1,5 +1,5 @@
 # Authentification
-[Enoncé Blog Migrolinux](https://blog.microlinux.fr/formation-ansible-04-authentification/)
+[Enoncé Blog Microlinux](https://blog.microlinux.fr/formation-ansible-04-authentification/)
 
 ## Exercice 1
 Démarrez les VM
