@@ -9,3 +9,4 @@ Liste des solutions :
 - [Idempotence](Solutions/Idempotence/Soluce.md)
 - [Playbooks](Solutions/Playbooks/Soluce.md)
 - [Handlers](Solutions/Handler/Soluce.md)
+- [Variables](Solutions/Variables/Soluce.md)
