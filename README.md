@@ -12,3 +12,4 @@ Liste des solutions :
 - [Variables](Solutions/Variables/Soluce.md)
 - [Facts](Solutions/Facts/Soluce.md)
 - [Cibles hétérogenes](Solutions/Target/Soluce.md)
+- [Jinja & Templates](Solutions/Jinja/Soluce.md)
