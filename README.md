@@ -10,3 +10,4 @@ Liste des solutions :
 - [Playbooks](Solutions/Playbooks/Soluce.md)
 - [Handlers](Solutions/Handler/Soluce.md)
 - [Variables](Solutions/Variables/Soluce.md)
+- [Facts](Solutions/Facts/Soluce.md)
