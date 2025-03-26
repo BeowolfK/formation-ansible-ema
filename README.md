@@ -8,3 +8,4 @@ Liste des solutions :
 - [Configuration](Solutions/Configuration/Soluce.md)
 - [Idempotence](Solutions/Idempotence/Soluce.md)
 - [Playbooks](Solutions/Playbooks/Soluce.md)
+- [Handlers](Solutions/Handler/Soluce.md)

@@ -1,4 +1,4 @@
-# Installation
+# Un serveur Web simple
 [Enoncé Blog Microlinux](https://blog.microlinux.fr/formation-ansible-10-apache/)
 
 ## Exercice 1
@@ -7,8 +7,7 @@
     Un premier playbook apache-debian.yml qui installe Apache sur l’hôte debian avec une page personnalisée Apache web server running on Debian Linux.
 ```yaml
 ---  # apache-debian.yml
-
-- naem : Installer Apache sur Debian 
+- name: Installer Apache sur Debian 
   hosts: debian
   become: yes
   tasks:
@@ -51,17 +50,6 @@
   hosts: rocky
   become: yes
   tasks:
-    - name: Désinstaller FirewallD
-      dnf:
-        name: firewalld
-        state: absent
-
-    - name: Désactiver et arrêter le service firewalld
-      systemd:
-        name: firewalld
-        state: stopped
-        enabled: no
-
     - name: Installer Apache
       dnf:
         name: httpd
