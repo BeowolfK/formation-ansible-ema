@@ -11,3 +11,4 @@ Liste des solutions :
 - [Handlers](Solutions/Handler/Soluce.md)
 - [Variables](Solutions/Variables/Soluce.md)
 - [Facts](Solutions/Facts/Soluce.md)
+- [Cibles hétérogenes](Solutions/Target/Soluce.md)
